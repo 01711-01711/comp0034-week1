@@ -19,3 +19,18 @@ def hello_world():
 # Run the app
 if __name__ == '__main__':
     app.run()
+    # For any other port just put 'port=5001' inside brackets like app.run(port=5001) so the server would become 'http://127.0.0.1:5001'
+
+
+# Running using Flask:
+# (base) mateuszzawila@MacBook-Pro-3 tutorials python % source .venv/bin/activate
+# (.venv) (base) mateuszzawila@MacBook-Pro-3 tutorials python % export FLASK_APP=comp0034-week1/flask_app1/app1
+# (.venv) (base) mateuszzawila@MacBook-Pro-3 tutorials python % export FLASK_ENV=development
+# (.venv) (base) mateuszzawila@MacBook-Pro-3 tutorials python % flask run
+    # or flask --app comp0034-week1/flask_app1/app1.py run --debug
+# ... will be running now ...
+# after closing with CTRL+C: (.venv) (base) mateuszzawila@MacBook-Pro-3 tutorials python % deactivate
+
+# Running using Python:
+# (base) mateuszzawila@MacBook-Pro-3 tutorials python %  python comp0034-week1/flask_app1/app1.py
+
